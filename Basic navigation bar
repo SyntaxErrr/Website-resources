@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- SyntaxErrr -->
+<html>
+    <head>
+       <style>
+        /* Style for the navigation bar */
+            ul{
+                position: fixed;
+                width: 100%;
+                list-style-type: none;
+                top: 0;
+                margin: 0;
+                padding: 0;
+                background-color: black;
+            }
+            li{
+                /*Horizontal navbar*/
+                display: inline-block;
+            }
+            a{
+                display: block;
+                padding: 8px;
+                /*formatting for text in navbar objects*/
+                color: white;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                text-decoration: none;
+                font-size: x-large;
+            }
+            /*Navbar object hover properties*/
+            li a:hover{
+                background-color: rgba(56, 51, 51);
+            }
+       </style>
+    </head>
+    <body>
+        <ul>
+            <!-- Navbar objects -->
+            <li>
+                <a href="page 1">page 1</a>
+            </li>
+            <li>
+                <a href="page 2">page 2</a>
+            </li>
+        </ul>
+    </body>
+</html>
